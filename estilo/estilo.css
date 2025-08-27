@@ -1,0 +1,613 @@
+/* colores: #537D5D(verde oscuro), #73946B (verde intermedio), #9EBC8A (verde clarito), #D2D0A0 (marron clarito)*/
+
+/*fuente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ETIQUETAS INDEX*/
+body {
+    background-color: #73946B;
+}
+
+header {
+    background-color: #9EBC8A;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: double;
+    border-color: #73946B;
+}
+
+
+/*imagen logo*/
+.imglogo {
+    width: 60px;
+    margin: 5px;
+}
+
+
+/*menu-navegable*/
+
+
+.navbar {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-link {
+    color: #537D5D;
+}
+
+
+
+/*H1*/
+h1 {
+    color: #FFF2E0;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+/*Banner*/
+.banner {
+    background-image: url(../imagenes/playa.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    text-shadow: 1px 1px 8px rgb(143, 138, 138);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.elementosbanner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titulobanner {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 35px;
+    color: #537D5D;
+
+}
+
+.textobanner {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding-top: 35px;
+    margin-left: 20px;
+    color: #537D5D;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.btn-primary {
+    color: #D2D0A0;
+    background-color: #537D5D;
+    border-color: #73946B;
+    margin-left: 25px;
+}
+
+
+/*oferta rio*/
+
+
+
+.ofertario {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #FFF2E0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+
+}
+
+.titulooferta {
+    font-size: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9EBC8A;
+    border-radius: 15%;
+
+}
+
+.imgoferta {
+    width: 200px;
+    padding: 15px;
+
+}
+
+.cuerpotarjeta {
+    text-decoration: #FFF2E0;
+
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+.ofertalista {
+    list-style: circle;
+}
+
+.btn-success {
+    margin: 10px;
+}
+
+
+
+
+/*Formulario de suscripcion*/
+
+
+.formsuscripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF2E0;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 30px;
+    gap: 20px;
+    border-style: double;
+    border-color: #D2D0A0;
+    margin: 50px;
+}
+
+.btn-link {
+    background-color: #FFF2E0;
+    margin-block-end: 10px;
+    color: #537D5D;
+}
+
+.titulosuscripcion {
+    font-size: 25px;
+
+}
+
+/*Footer*/
+
+.elemfooter {
+    background-color: #9EBC8A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 20px;
+    border-top: 10px black;
+    border-radius: 10px;
+    gap: 200px;
+
+
+}
+
+.elemfooter h2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin: 5px;
+    text-decoration: underline;
+    gap: 15px;
+}
+
+.redes {
+    margin-left: 0;
+}
+
+.telefonos {
+    gap: 15px
+}
+
+.imagenesredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px
+}
+
+.whatsapp {
+    width: 25px;
+
+}
+
+.instagram {
+    width: 25px;
+}
+
+.facebook {
+    width: 25px;
+}
+
+
+.mapa {
+    width: 150px;
+    height: 75px;
+
+}
+
+
+
+
+
+
+
+
+
+/*DESTINOS*/
+
+main h2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFF2E0;
+    margin-left: 15px;
+
+}
+
+.tarjetas1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: #537D5D;
+}
+
+.tarjetas2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    color: #537D5D;
+}
+
+.tarjetas1 ul li {
+    list-style: circle;
+}
+
+.tarjetas2 ul li {
+    list-style: circle;
+}
+
+.card-body {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #D2D0A0;
+}
+
+.card-text {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+
+/*ESCAPADAS*/
+
+.escapadas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+
+}
+
+/*CARLOS PAZ*/
+.carlospaz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2D0A0;
+    border-radius: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #537D5D;
+
+}
+
+.imgcarlospaz {
+    padding: 15px;
+    width: 350px;
+
+}
+
+.carlospaz h3 {
+    text-decoration: underline;
+}
+
+.carlospaz ul li {
+    list-style: circle;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.boton {
+    border-radius: 15px;
+    border-color: #73946B;
+    padding: 15px;
+    margin-block-end: 8px;
+    color: #537D5D;
+}
+
+/*CATARARAS*/
+.cataratas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2D0A0;
+    border-radius: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #537D5D;
+
+}
+
+.imgcataratas {
+    padding: 15px;
+    width: 350px;
+    height: 190px;
+
+}
+
+.cataratas h3 {
+    text-decoration: underline;
+}
+
+.cataratas ul li {
+    list-style: circle;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/*SALTA*/
+.salta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2D0A0;
+    border-radius: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #537D5D;
+
+}
+
+.imgsalta {
+    padding: 15px;
+    width: 350px;
+
+}
+
+.salta h3 {
+    text-decoration: underline;
+}
+
+.salta ul li {
+    list-style: circle;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+
+/*PREGUNTAS FRECUENTES*/
+
+.pregfrecuentes {
+    margin: 20px;
+}
+
+.accordion-button {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #537D5D;
+}
+
+
+.pregfrecuentes strong {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+/*MOBILE*/
+
+@media (max-width: 480px) {
+
+    HEADER .imglogo {
+        width: 40px;
+        height: 40px;
+        margin: 10px
+    }
+
+    .navbar{
+        margin: 0px;
+        font-size: 15px;
+        text-decoration: #537D5D;
+        
+    }
+
+    .navbar-toggler{
+        border-color: #537D5D;
+        border: #537D5D;
+    }
+
+   
+    .navbar-toggler-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-link{
+        color: #537D5D;
+    }
+
+    p{
+        font-size: 15px;
+        margin-top: 7px;   
+        color:#537D5D;   
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+
+    /*MAIN*/
+    h1 {
+        font-size: 20px;
+    }
+
+    .textobanner {
+        font-size: 18px;
+    }
+
+
+    /*OFERTA RIO*/
+    .ofertario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding-top: 50px;
+    }
+
+    .titulooferta {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    /*FORMULARIO SUSCRIPCION*/
+
+    .formsuscripcion {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        padding: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*FOOTER*/
+
+    .elemfooter {
+        gap: 30px;
+    }
+
+    .elemfooter h2 {
+        font-size: 15px;
+    }
+
+    .mapa {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .telefonos p {
+        font-size: 12px;
+    }
+
+
+    /*DESTINOS*/
+
+    main h2 {
+        font-size: 20px;
+    }
+
+    .tarjetas1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjetas2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*ESCAPADAS*/
+
+    .escapadas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgcarlospaz {
+        width: 300px;
+    }
+
+    .imgcataratas {
+        width: 300px;
+    }
+
+    .imgsalta {
+        width: 300px;
+    }
+}

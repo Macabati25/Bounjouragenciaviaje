@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BonJour Agencia de Viajes</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <!--imagen de logo-->
+        <img class="imglogo" src="../imagenes/logo.png" alt="Logo de la marca">
+        <!--Menu nav-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <p>Menu</p>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./destinos.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./escapadas.html">Escapadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>BonJour Agencia de Viajes</h1>
+        <h2>Preguntas Frecuentes</h2>
+        <div class="pregfrecuentes">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Medios de Pago
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Aceptamos todas las tarjetas de credito,debito y efectivo. Tambien podes abonar en
+                                dolar billete con
+                                cotizacion del dia.</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Financiacion
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Tenemos planes de financiacion con tarjetas de credito en 3, 6 y 12 cuotas. Tambien
+                                contamos con planes
+                                de pago a vencimiento de 30 dias antes de viajar, señas el cupo con un 30% del total y
+                                resto a abonar,
+                                debera estar completamente abonado 30 dias antes de la fecha de viaje. Caso contario se
+                                caera la reserva
+                                y no se hara devolucion de lo pagado anteriormente</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Documentacion Necesaria
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>En algunos paises solicitan visados especificos para su ingreso, en caso de
+                                necesitar alguno de estos
+                                visados la agencia de viaje evaluara si el tramite debera hacerlo personalmente o
+                                gestionarlo por
+                                nuestra cuenta. Si es para destino nacional debera contar solo con Documento Nacional de
+                                Identidad, si
+                                el detino fuera Internacional debera contar con el Pasaporte Argentino</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="elemfooter">
+            <!--Redes-->
+            <div class="redes">
+                <h2>Redes Sociales</h2>
+                <div class="imagenesredes">
+                    <img class="whatsapp" src="../imagenes/whatsapp.png" alt="Logo whatsapp">
+                    <img class="facebook" src="../imagenes/facebook.png" alt="Logo facebook">
+                    <img class="instagram" src="../imagenes/instagram.png" alt="Logo de instagram">
+                </div>
+            </div>
+
+            <!--ubicacion-->
+            <div class="ubicacion">
+                <h2>Ubicacion</h2>
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6543.269508000842!2d-57.94850513688964!3d-34.91561442365704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1753660326078!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="telefonos">
+                <h2>Telefonos</h2>
+                <p>2215589963</p>
+                <p>221-4236574</p>
+            </div>
+        </div>
+
+    </footer>
+    <!--Scrip js bootsatrp-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
