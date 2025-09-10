@@ -9,40 +9,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="../estilo/estilo.css">
+    <link rel="stylesheet" href="../css/estilo2.css">
+    <!--ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <header>
-        <!--imagen de logo-->
-        <img class="imglogo" src="../imagenes/logo.png" alt="Logo de la marca">
-        <!--Menu nav-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <p>Menu</p>
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./escapadas.html">Escapadas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./preguntas.html">Preguntas Frecuentes</a>
-                        </li>
-                    </ul>
+        <div class="nav-bar">
+            <!--imagen de logo-->
+            <img class="imglogo" src="../imagenes/logo.png" alt="Logo de la marca">
+            <!--Menu nav-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <p>Menu</p>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Destinos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./escapadas.html">Escapadas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./preguntas.html">Preguntas Frecuentes</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
 
@@ -50,7 +54,7 @@
         <h1>BonJour Agencia de Viajes</h1>
 
         <!--<div class="destinosint">-->
-        <h2>Destinos Internacionales</h2>
+        <h2 class="animate__animated animate__backInRight">Destinos Internacionales</h2>
         <!--</div>-->
         <section class="tarjetas1">
             <!--Dubai-->
@@ -58,7 +62,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="../imagenes/dubai.jpg" class="card-img-top" alt="Imagen Dubai">
                     <div class="card-body">
-                        <h5>Dubai</h5>
+                        <h5 class="titlecard">Dubai</h5>
                         <p class="card-text">
                         <ul>
                             <li>15 dias/12 noches</li>
@@ -68,7 +72,7 @@
                             <li>Traslados y excursiones</li>
                         </ul>
                         </p>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <button class="boton">Reservar</button>
                     </div>
                 </div>
             </div>
@@ -78,7 +82,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="../imagenes/capadocia2.jpg" class="card-img-top" alt="Imagen Capadocia">
                     <div class="card-body">
-                        <h5>Capadocia</h5>
+                        <h5 class="titlecard">Capadocia</h5>
                         <p class="card-text">
                         <ul>
                             <li>10 dias/8 noches</li>
@@ -88,7 +92,7 @@
                             <li>Traslado y excursion globo</li>
                         </ul>
                         </p>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <button class="boton">Reservar</button>
                     </div>
                 </div>
             </div>
@@ -98,7 +102,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="../imagenes/disney4.jpg" class="card-img-top" alt="Imagen Castillo Disney y personajes">
                     <div class="card-body">
-                        <h5>Disney</h5>
+                        <h5 class="titlecard">Disney</h5>
                         <p class="card-text">
                         <ul>
                             <li>15 dias/12 noches</li>
@@ -107,7 +111,7 @@
                             <li>Plan de comidas incluido</li>
                             <li>Traslado y pases por 5 dias a parques</li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <button class="boton">Reservar</button>
                     </div>
                 </div>
             </div>
@@ -118,7 +122,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="../imagenes/europa.jpg" class="card-img-top" alt="Imagen paises Europa">
                     <div class="card-body">
-                        <h5 class="europa">Eurotrip</h5>
+                        <h5 class="titlecard">Eurotrip</h5>
                         <p class="card-text">
                         <ul>
                             <li>30 dias/25 noches</li>
@@ -127,7 +131,7 @@
                             <li>Desayunos incluidos</li>
                             <li>Traslado de Aeropuertos</li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <button class="boton">Reservar</button>
                     </div>
                 </div>
             </div>
@@ -138,7 +142,7 @@
                     <img src="../imagenes/republicadom.jpg" class="card-img-top"
                         alt="Imagen playa Republica Dominicana">
                     <div class="card-body">
-                        <h5 class="repdom">Republica Dominicana</h5>
+                        <h5 class="titlecard">Republica Dominicana</h5>
                         <p class="card-text">
                         <ul>
                             <li>15 dias/12 noches</li>
@@ -146,7 +150,7 @@
                             <li>All Inclusive</li>
                             <li>Traslado aeropueto in/out</li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Reservar</a>
+                        <button class="boton">Reservar</button>
                     </div>
                 </div>
             </div>

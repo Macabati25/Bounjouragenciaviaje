@@ -1,0 +1,19 @@
+//VARIABLES
+
+$verdeoscuro: #537D5D;
+$verdeintermedio: #73946B;
+$verdeclaro: #9EBC8A;
+$cremita: #D2D0A0;
+$font: "Montserrat Alternates", sans-serif;
+
+
+@mixin flex ($direction,$justi,$align) {
+    direction: $direction;
+    justify-content: $justi;
+    align-items: $align;
+}
+
+@mixin font ($weight,$style){
+    font-weight: $weight;
+    font-style: $style;
+}

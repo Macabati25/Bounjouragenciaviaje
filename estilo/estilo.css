@@ -1,8 +1,10 @@
-/* colores: #537D5D(verde oscuro), #73946B (verde intermedio), #9EBC8A (verde clarito), #D2D0A0 (marron clarito)*/
+/* colores:#537D5D(verde oscuro), #73946B (verde intermedio), #9EBC8A (verde clarito), #D2D0A0 (marron clarito)*/
 
-/*fuente*/
+/*fuente
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 * {
     margin: 0;
@@ -10,7 +12,7 @@
     box-sizing: border-box;
 }
 
-/*ETIQUETAS INDEX*/
+/*ETIQUETAS INDEX
 body {
     background-color: #73946B;
 }
@@ -26,14 +28,14 @@ header {
 }
 
 
-/*imagen logo*/
+/*imagen logo
 .imglogo {
     width: 60px;
     margin: 5px;
 }
 
 
-/*menu-navegable*/
+/*menu-navegable
 
 
 .navbar {
@@ -50,10 +52,11 @@ ul {
 .nav-link {
     color: #537D5D;
 }
+*/
 
+/*main*/
 
-
-/*H1*/
+/*H1*
 h1 {
     color: #FFF2E0;
     font-family: "Montserrat Alternates", sans-serif;
@@ -66,10 +69,10 @@ h1 {
     justify-content: center;
 
 
-}
+}*/
 
 
-/*Banner*/
+/*Banner
 .banner {
     background-image: url(../imagenes/playa.jpg);
     border-radius: 30px;
@@ -118,7 +121,7 @@ h1 {
 }
 
 
-/*oferta rio*/
+/*oferta rio
 
 
 
@@ -174,12 +177,12 @@ h5 {
 
 .btn-success {
     margin: 10px;
-}
+}*/
 
 
 
 
-/*Formulario de suscripcion*/
+/*Formulario de suscripcion
 
 
 .formsuscripcion {
@@ -207,9 +210,9 @@ h5 {
 .titulosuscripcion {
     font-size: 25px;
 
-}
+}*/
 
-/*Footer*/
+/*Footer
 
 .elemfooter {
     background-color: #9EBC8A;
@@ -268,7 +271,7 @@ h5 {
     width: 150px;
     height: 75px;
 
-}
+}*/
 
 
 
@@ -278,7 +281,7 @@ h5 {
 
 
 
-/*DESTINOS*/
+/*DESTINOS
 
 main h2 {
     font-family: "Montserrat Alternates", sans-serif;
@@ -326,13 +329,13 @@ main h2 {
     font-weight: 500;
     font-style: normal;
 }
+*/
 
 
 
 
 
-
-/*ESCAPADAS*/
+/*ESCAPADAS
 
 .escapadas {
     display: flex;
@@ -343,7 +346,7 @@ main h2 {
 
 }
 
-/*CARLOS PAZ*/
+/*CARLOS PAZ
 .carlospaz {
     display: flex;
     flex-direction: column;
@@ -383,7 +386,7 @@ main h2 {
     color: #537D5D;
 }
 
-/*CATARARAS*/
+/*CATARARAS
 .cataratas {
     display: flex;
     flex-direction: column;
@@ -416,7 +419,7 @@ main h2 {
     font-style: italic;
 }
 
-/*SALTA*/
+/*SALTA
 .salta {
     display: flex;
     flex-direction: column;
@@ -446,12 +449,12 @@ main h2 {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-style: italic;
-}
+}*/
 
 
 
 
-/*PREGUNTAS FRECUENTES*/
+/*PREGUNTAS FRECUENTES
 
 .pregfrecuentes {
     margin: 20px;
@@ -469,13 +472,13 @@ main h2 {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-style: normal;
-}
+}*/
 
 
 
 
 
-/*MOBILE*/
+/*MOBILE
 
 @media (max-width: 480px) {
 
@@ -517,7 +520,7 @@ main h2 {
     }
 
 
-    /*MAIN*/
+    /*MAIN
     h1 {
         font-size: 20px;
     }
@@ -527,7 +530,7 @@ main h2 {
     }
 
 
-    /*OFERTA RIO*/
+    /*OFERTA RIO
     .ofertario {
         display: flex;
         flex-direction: column;
@@ -541,7 +544,7 @@ main h2 {
         text-decoration: underline;
     }
 
-    /*FORMULARIO SUSCRIPCION*/
+    /*FORMULARIO SUSCRIPCION
 
     .formsuscripcion {
         display: flex;
@@ -555,7 +558,7 @@ main h2 {
         flex-direction: column;
     }
 
-    /*FOOTER*/
+    /*FOOTER
 
     .elemfooter {
         gap: 30px;
@@ -576,7 +579,7 @@ main h2 {
     }
 
 
-    /*DESTINOS*/
+    /*DESTINOS
 
     main h2 {
         font-size: 20px;
@@ -592,7 +595,7 @@ main h2 {
         flex-direction: column;
     }
 
-    /*ESCAPADAS*/
+    /*ESCAPADAS
 
     .escapadas {
         display: flex;
@@ -610,4 +613,4 @@ main h2 {
     .imgsalta {
         width: 300px;
     }
-}
+}*/

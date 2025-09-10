@@ -1,0 +1,197 @@
+@use "../varios/variables" as*;
+
+/*main*/
+
+/*H1*/
+h1 {
+    color: $cremita;
+    font-family: $font;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+/*Banner*/
+.banner {
+    background-image: url(../imagenes/playa.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    .elementosbanner {
+        display: flex;
+        flex-direction: column;
+
+        .titulobanner {
+            font-family: $font;
+            font-weight: 700;
+            font-style: normal;
+            padding: 35px;
+            color: $verdeoscuro;
+        }
+
+        .textobanner {
+            font-family: $font;
+            font-weight: 900;
+            font-style: normal;
+            padding-top: 35px;
+            margin-left: 20px;
+            color: $verdeoscuro;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        .boton {
+            border-radius: 15px;
+            border-color: $verdeintermedio;
+            padding: 8px;
+            margin-block-end: 8px;
+            color: $verdeoscuro;
+            margin-left: 25px;
+            width: 100px;
+
+            &:hover{
+                transform: translate(10px, 1px);
+                transition: 1s;
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+/*oferta rio*/
+
+
+
+.ofertario {
+    font-family: $font;
+    font-weight: 300;
+    font-style: normal;
+    color: $cremita;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+
+
+
+    .titulooferta {
+        font-size: 35px;
+        font-family: $font;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .tarjeta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $verdeclaro;
+        border-radius: 15%;
+
+
+    }
+
+    .imgoferta {
+        width: 250px;
+        padding: 15px;
+        border-radius: 30px;
+
+    }
+
+    .cuerpotarjeta {
+
+
+        h5 {
+            text-decoration: underline;
+            font-weight: 700;
+            color: $verdeintermedio;
+
+        }
+
+        .ofertalista {
+            font-family: $font;
+            font-weight: 600;
+            font-style: normal;
+            list-style: circle;
+            color: $verdeoscuro;
+        }
+
+        .boton {
+            border-radius: 15px;
+            border-color: $verdeintermedio;
+            padding: 15px;
+            margin-block-end: 8px;
+            color: $verdeoscuro;
+
+            &:hover{
+                transform: translate(10px, 1px);
+                transition: 1s;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*Formulario de suscripcion*/
+
+
+.formsuscripcion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: $cremita;
+    font-family: $font;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 30px;
+    gap: 20px;
+    border-style: double;
+    border-color: $cremita;
+    margin: 10px;
+
+
+    .titulosuscripcion {
+        font-size: 25px;
+
+    }
+
+    .boton {
+        border-radius: 15px;
+        border-color: $verdeintermedio;
+        padding: 15px;
+        margin-block-end: 20px;
+        color: $verdeoscuro;
+
+        &:hover{
+                transform: translate(10px, 8px);
+                transition: 1s;
+            }
+    }
+
+
+
+}

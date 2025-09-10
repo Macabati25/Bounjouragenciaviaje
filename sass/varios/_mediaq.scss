@@ -1,0 +1,191 @@
+@use "../varios/variables" as*;
+
+/*MOBILE*/
+
+@media (max-width: 480px) {
+
+    header {
+        .imglogo {
+            width: 40px;
+            height: 40px;
+            margin: 10px
+        }
+
+        .navbar {
+            margin: 0px;
+            font-size: 15px;
+            text-decoration: #537D5D;
+
+            .navbar-toggler {
+                border-color: #537D5D;
+                border: #537D5D;
+            }
+
+            .navbar-toggler-icon {
+                display: flex;
+                justify-content: center;
+                color: $verdeoscuro;
+                font-size: 15px;
+            }
+
+            .nav-link {
+                color: #537D5D;
+            }
+        }
+
+    }
+
+    .banner {
+        .elementosbanner {
+            .textobanner {
+                font-size: 18px;
+                margin-top: 7px;
+                color: $verdeoscuro;
+                font-family: $font;
+                font-weight: 700;
+                font-style: normal;
+            }
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    /*MAIN*/
+    h1 {
+        font-size: 20px;
+    }
+
+    .banner {
+        .textobanner {
+            font-size: 18px;
+        }
+
+    }
+
+
+
+
+    /*OFERTA RIO*/
+    .ofertario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding-top: 50px;
+
+        .titulooferta {
+            font-size: 20px;
+            text-decoration: underline;
+        }
+    }
+
+
+
+    /*FORMULARIO SUSCRIPCION*/
+
+    .formsuscripcion {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        padding: 20px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+
+    /*FOOTER*/
+
+    .elemfooter {
+        gap: 30px;
+
+        h2 {
+            font-size: 15px;
+        }
+
+        .mapa {
+            width: 60px;
+            height: 60px;
+
+        }
+
+        .telefonos {
+            p {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
+    /*DESTINOS*/
+
+    main {
+        h2 {
+            font-size: 20px;
+        }
+
+        .tarjetas1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tarjetas2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+
+
+
+
+    /*ESCAPADAS*/
+
+    .escapadas {
+        display: flex;
+        flex-direction: column;
+
+        .carlospaz {
+            .imgcarlospaz {
+                width: 300px;
+            }
+        }
+
+        .cataratas {
+            .imgcataratas {
+                width: 300px;
+            }
+
+        }
+
+        .salta {
+            .imgsalta {
+                width: 300px;
+            }
+        }
+    }
+
+}

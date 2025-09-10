@@ -1,0 +1,68 @@
+@use "../varios/variables" as*;
+
+main {
+    h2 {
+        font-family: $font;
+        color: $cremita;
+        margin-left: 15px;
+
+        .animate__headShake{
+            transition: 1s;
+        }
+
+    }
+
+    .tarjetas1 {
+        display: flex;
+        @include flex (row, center, center);
+        gap: 60px;
+        color: $verdeoscuro;
+        font-family: $font;
+        @include font (800, normal);
+
+
+        .card {
+            border-radius: 30px;
+            background-color: $cremita;
+
+            &:hover{
+                transform: translate(15px, -30px);
+                transition: 1s;
+            }
+        }
+
+
+        .card-img-top {
+            padding: 15px;
+            border-radius: 30px;
+        }
+
+        .card-body {
+            .titlecard {
+                font-family: $font;
+                @include font (800, normal);
+                text-decoration: underline;
+                font-size: 30px;
+            }
+
+
+            .tarjetas1 ul li {
+                list-style: circle;
+            }
+
+            .boton {
+                border-radius: 15px;
+                border-color: $verdeintermedio;
+                padding: 15px;
+                margin-block-end: 8px;
+                color: $verdeoscuro;
+            }
+        }
+    }
+
+    .tarjetas2 {
+        @extend .tarjetas1;
+        padding: 50px;
+
+    }
+}

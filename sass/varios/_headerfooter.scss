@@ -1,0 +1,102 @@
+@use "../varios/variables" as*;
+
+//HEADER
+
+header {
+    background-color: $verdeclaro;
+    margin: 10px;
+    border-style: double;
+    border-color: $verdeintermedio;
+
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .imglogo {
+            width: 60px;
+            margin: 5px;
+        }
+
+        .navbar {
+            font-family: $font;
+            font-weight: 400;
+            font-style: normal;
+            margin: 10px;
+
+            ul {
+                list-style: none;
+
+
+
+
+                .nav-link {
+                    color: $verdeoscuro;
+
+                    &:hover {
+                        color: $cremita;
+                        transform: translate(0px, -15px);
+                        transition: 0.5s;
+
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+//FOOTER
+
+.elemfooter {
+    background-color: $cremita;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    border-top: 10px;
+    border-radius: 10px;
+    gap: 170px;
+
+
+
+    h2 {
+        font-family: $font;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        margin: 5px;
+        text-decoration: underline;
+        gap: 15px;
+    }
+
+    .imagenesredes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+
+        .whatsapp {
+            width: 25px;
+
+        }
+
+        .instagram {
+            width: 25px;
+        }
+
+        .facebook {
+            width: 25px;
+        }
+    }
+}
+
+
+.mapa {
+    width: 150px;
+    height: 75px;
+
+}

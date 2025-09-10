@@ -1,0 +1,30 @@
+
+
+
+//PARCIAL
+
+@use "./varios/variables";
+@use "./varios/headerfooter";
+@use "./varios/inicio";
+@use "./menu/destinos";
+@use "./menu/escapadas";
+@use "./menu/preguntas";
+@use "./varios/mediaq";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+body {
+    background-color: #537D5D;
+}
+

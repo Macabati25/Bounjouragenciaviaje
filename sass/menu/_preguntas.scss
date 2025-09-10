@@ -1,0 +1,25 @@
+@use "../varios/variables" as*;
+
+/*PREGUNTAS FRECUENTES*/
+
+.pregfrecuentes {
+    margin: 20px;
+
+    .accordion-button {
+        font-family: $font;
+        font-weight: 700;
+        font-style: normal;
+        color: $verdeoscuro;
+    }
+
+    .pregfrecuentes strong {
+        font-family: $font;
+        font-weight: 500;
+        font-style: normal;
+
+    }
+
+
+
+
+}
