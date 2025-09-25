@@ -3,23 +3,43 @@
 /*PREGUNTAS FRECUENTES*/
 
 .pregfrecuentes {
-    margin: 20px;
+    margin: 85px;
 
-    .accordion-button {
-        font-family: $font;
-        font-weight: 700;
-        font-style: normal;
-        color: $verdeoscuro;
+    .accordion-item {
+
+        background-color: $verdeintermedio;
+        
+
+        .accordion-button {
+            font-family: $font;
+            font-weight: 700;
+            font-style: normal;
+            border-radius: 15px;
+            background-color: $cremita;
+            color: $verdeoscuro;
+            
+        }
+
+
+
+                .strong {
+                    font-family: $font;
+                    font-weight: 500;
+                    font-style: normal;
+                    color: $verdeclaro;
+                }
+            
+
+        
+
+
+
+
+
+
+
+
+
     }
-
-    .pregfrecuentes strong {
-        font-family: $font;
-        font-weight: 500;
-        font-style: normal;
-
-    }
-
-
-
 
 }

@@ -11,8 +11,9 @@ header .nav-bar {
   justify-content: space-between;
 }
 header .nav-bar .imglogo {
-  width: 60px;
+  width: 65px;
   margin: 5px;
+  height: 63px;
 }
 header .nav-bar .navbar {
   font-family: "Montserrat Alternates", sans-serif;
@@ -39,7 +40,6 @@ header .nav-bar .navbar ul .nav-link:hover {
   justify-content: space-around;
   margin: 10px;
   padding: 5px;
-  border-top: 10px;
   border-radius: 10px;
   gap: 170px;
 }
@@ -54,9 +54,9 @@ header .nav-bar .navbar ul .nav-link:hover {
 }
 .elemfooter .imagenesredes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-around;
-  gap: 10px;
 }
 .elemfooter .imagenesredes .whatsapp {
   width: 25px;
@@ -70,7 +70,7 @@ header .nav-bar .navbar ul .nav-link:hover {
 
 .mapa {
   width: 150px;
-  height: 75px;
+  height: 100px;
 }
 
 /*main*/
@@ -157,7 +157,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   background-color: #9EBC8A;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 .ofertario .imgoferta {
   width: 250px;
@@ -224,9 +224,10 @@ main h2 {
   font-family: "Montserrat Alternates", sans-serif;
   color: #D2D0A0;
   margin-left: 15px;
+  padding: 45px;
 }
 main h2 .animate__headShake {
-  transition: 1s;
+  transition: 0.5s;
 }
 main .tarjetas1, main .tarjetas2 {
   display: flex;
@@ -242,14 +243,19 @@ main .tarjetas1, main .tarjetas2 {
 main .tarjetas1 .card, main .tarjetas2 .card {
   border-radius: 30px;
   background-color: #D2D0A0;
+  box-shadow: 3px;
+  height: 500px;
 }
 main .tarjetas1 .card:hover, main .tarjetas2 .card:hover {
-  transform: translate(15px, -30px);
-  transition: 1s;
+  transform: translate(5px, -10px);
+  transition: 0.3s;
 }
-main .tarjetas1 .card-img-top, main .tarjetas2 .card-img-top {
-  padding: 15px;
+main .tarjetas1 .card-img-top, main .tarjetas2 .card-img-top, main .tarjetas2 .europa .card .card-img-topeuro, main .tarjetas1 .card-img-topdubai, main .tarjetas2 .card-img-topdubai {
+  padding: 8px;
   border-radius: 30px;
+}
+main .tarjetas1 .card-img-topdubai, main .tarjetas2 .card-img-topdubai {
+  height: 185px;
 }
 main .tarjetas1 .card-body .titlecard, main .tarjetas2 .card-body .titlecard {
   font-family: "Montserrat Alternates", sans-serif;
@@ -271,6 +277,14 @@ main .tarjetas1 .card-body .boton, main .tarjetas2 .card-body .boton {
 main .tarjetas2 {
   padding: 50px;
 }
+main .tarjetas2 .europa .card .card-img-topeuro {
+  height: 188px;
+}
+main .tarjetas2 .repdom .titlecard {
+  font-size: 28px;
+  font-weight: 800;
+  font-style: normal;
+}
 
 /*ESCAPADAS*/
 .escapadas {
@@ -280,8 +294,9 @@ main .tarjetas2 {
   align-items: center;
   gap: 50px;
   margin: 30px;
+  color: #537D5D;
   font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   font-style: normal;
   /*CATARARAS*/
   /*SALTA*/
@@ -303,7 +318,7 @@ main .tarjetas2 {
 }
 .escapadas .carlospaz:hover, .escapadas .salta:hover, .escapadas .cataratas:hover {
   transform: translate(15px, -30px);
-  transition: 1s;
+  transition: 0.5s;
 }
 .escapadas .carlospaz .imgcarlospaz, .escapadas .salta .imgcarlospaz, .escapadas .cataratas .imgcarlospaz {
   border-radius: 30px;
@@ -333,18 +348,24 @@ main .tarjetas2 {
 
 /*PREGUNTAS FRECUENTES*/
 .pregfrecuentes {
-  margin: 20px;
+  margin: 85px;
 }
-.pregfrecuentes .accordion-button {
+.pregfrecuentes .accordion-item {
+  background-color: #73946B;
+}
+.pregfrecuentes .accordion-item .accordion-button {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-style: normal;
+  border-radius: 15px;
+  background-color: #D2D0A0;
   color: #537D5D;
 }
-.pregfrecuentes .pregfrecuentes strong {
+.pregfrecuentes .accordion-item .strong {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: #9EBC8A;
 }
 
 /*MOBILE*/
@@ -362,6 +383,7 @@ main .tarjetas2 {
   header .navbar .navbar-toggler {
     border-color: #537D5D;
     border: #537D5D;
+    box-shadow: none;
   }
   header .navbar .navbar-toggler-icon {
     display: flex;
@@ -449,6 +471,64 @@ main .tarjetas2 {
   }
   .escapadas .salta .imgsalta {
     width: 300px;
+  }
+  /*PREGUNTAS FRECUENTES*/
+  .pregfrecuentes {
+    margin: 20px;
+  }
+  .pregfrecuentes .accordion-item {
+    width: 290px;
+    margin: 20px;
+  }
+}
+@media (min-width: 556px) and (max-width: 768px) {
+  /*menu*/
+  header .imglogo {
+    width: 60px;
+    height: 100px;
+    margin: 10px;
+  }
+  header .navbar {
+    margin: 0px;
+    font-size: 25px;
+    text-decoration: #537D5D;
+  }
+  header .navbar .navbar-toggler {
+    border-style: #537D5D;
+    border: #537D5D;
+    box-shadow: none;
+  }
+  header .navbar .navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    color: #537D5D;
+    font-size: 25px;
+  }
+  header .navbar .nav-link {
+    color: #537D5D;
+  }
+  .banner {
+    background-image: url(../imagenes/playa.jpg);
+    height: 30vh;
+    color: #537D5D;
+  }
+  .ofertario {
+    padding: 45px;
+    gap: 15px;
+  }
+  .formsuscripcion h2 {
+    padding: 2%;
+  }
+  /*DESTINOS*/
+  .tarjetas1 {
+    flex-direction: column;
+  }
+  .tarjetas2 {
+    flex-direction: column;
+  }
+  /*ESCAPADAS*/
+  .escapadas {
+    flex-direction: column;
   }
 }
 * {

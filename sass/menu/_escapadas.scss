@@ -7,9 +7,11 @@
     @include flex (row, center, center);
     gap: 50px;
     margin: 30px;
+    color: $verdeoscuro;
     font-family: $font;
-    font-weight: 500;
-    font-style: normal;
+    @include font (800, normal);
+
+
 
     .titlecard {
         font-family: $font;
@@ -28,8 +30,10 @@
 
         &:hover {
             transform: translate(15px, -30px);
-            transition: 1s;
+            transition: 0.5s;
         }
+
+
 
         .imgcarlospaz {
             border-radius: 30px;

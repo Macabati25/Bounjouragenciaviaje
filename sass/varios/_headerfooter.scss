@@ -15,8 +15,9 @@ header {
         justify-content: space-between;
 
         .imglogo {
-            width: 60px;
+            width: 65px;
             margin: 5px;
+            height: 63px;
         }
 
         .navbar {
@@ -57,7 +58,6 @@ header {
     justify-content: space-around;
     margin: 10px;
     padding: 5px;
-    border-top: 10px;
     border-radius: 10px;
     gap: 170px;
 
@@ -73,30 +73,32 @@ header {
         gap: 15px;
     }
 
-    .imagenesredes {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        gap: 10px;
 
-        .whatsapp {
-            width: 25px;
+        .imagenesredes {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
 
+            .whatsapp {
+                width: 25px;
+
+            }
+
+            .instagram {
+                width: 25px;
+            }
+
+            .facebook {
+                width: 25px;
+            }
         }
-
-        .instagram {
-            width: 25px;
-        }
-
-        .facebook {
-            width: 25px;
-        }
-    }
+    
 }
 
 
 .mapa {
     width: 150px;
-    height: 75px;
+    height: 100px;
 
 }

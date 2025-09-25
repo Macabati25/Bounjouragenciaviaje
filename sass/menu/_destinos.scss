@@ -5,9 +5,10 @@ main {
         font-family: $font;
         color: $cremita;
         margin-left: 15px;
+        padding: 45px;
 
         .animate__headShake{
-            transition: 1s;
+            transition: 0.5s;
         }
 
     }
@@ -24,17 +25,25 @@ main {
         .card {
             border-radius: 30px;
             background-color: $cremita;
+            box-shadow: 3px;
+            height: 500px;
 
             &:hover{
-                transform: translate(15px, -30px);
-                transition: 1s;
+                transform: translate(5px, -10px);
+                transition: 0.3s;
             }
         }
 
 
         .card-img-top {
-            padding: 15px;
+            padding: 8px;
             border-radius: 30px;
+            
+        }
+
+        .card-img-topdubai{
+            height: 185px;
+            @extend .card-img-top;
         }
 
         .card-body {
@@ -64,5 +73,20 @@ main {
         @extend .tarjetas1;
         padding: 50px;
 
+        .europa{
+            .card{
+                .card-img-topeuro{
+                    height: 188px;
+                    @extend .card-img-top;
+                }
+            }
+        }
+
+        .repdom{
+            .titlecard{
+                font-size: 28px;
+                @include font (800,normal);
+            }
+        }
     }
 }
